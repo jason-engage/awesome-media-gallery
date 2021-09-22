@@ -1,0 +1,20 @@
+{
+	"id": 12,
+	"core": 0,
+	"name": "Community Gallery &amp; Image Manager",
+	"version": 1.0,
+	"author": "Matt Lowden",
+	"author_email": "matt@mattlowden.com",
+	"author_url": "http://www.mattlowden.com",
+	"date_released": "18/02/2010",
+	"assets": [
+		{
+			"type": "css",
+			"src": "assets/css/screen.css"
+		},
+		{
+			"type": "css",
+			"src": "assets/css/screen.css"
+		}
+	]
+}

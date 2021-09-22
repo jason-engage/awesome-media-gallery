@@ -1,0 +1,164 @@
+/********** CUSTOM SITE COLORS AND VARIABLES ************/
+
+/* SITE FONT */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+
+.sitefont() {
+	font-family:'Open Sans', Arial;
+}
+
+/* COLORS */
+@black:#000000;
+@white:#FFFFFF;
+
+@midnight-blue: #2c3e50; 
+@asbestos: #7f8c8d;
+
+@lighter-white:#fbfbfb;
+@lighter-blue: #8ac5fb;
+@blue:#3498db;
+@dark-blue: #2980b9;
+@orange:#d35400; 
+@light-orange:#f39c12;
+@green: #27ae60;
+@purple: #8e44ad;
+@red: #c0392b;
+@heart-red:#ea515e;
+
+@lighter-grey:#ecf0f1;
+@light-grey:#bdc3c7;
+@grey:#95a5a6;
+@dark-grey:#7f8c8d;
+@darker-grey: #1f1f1f;
+
+@facebook-blue: #3b5998;
+@windows-blue: #65bcef;
+@yahoo-purple: #720e9e;
+@google-red: #dd1812;
+@linkedin-blue: #0e76a8;
+@twitter-blue: #00acee;
+@wordpress-grey: #464646;
+ 
+@success-color:@green;
+@warning-color:@red;
+ 
+/* Style Setters */
+@body-bg:@lighter-white;
+@main-color: @midnight-blue;
+@header-bg: @white;
+@menu-bar-bg: @lighter-grey;
+@menu-bar-bg-sticky: @white;
+@header-margin-bottom: 20px;
+@menu-text-color: @asbestos;
+@menu-hover-color: @main-color;
+@main-text-color: @darker-grey;
+@button-bg: @midnight-blue;
+@button-bg-hover: @dark-grey;
+@button-text-color: @white;
+@main-header-color: @darker-grey;
+@tagline-color: @lighter-grey;
+@input-bg: @lighter-grey;
+@divider-color: @menu-bar-bg;
+@edit-hover-color: @input-bg;
+@image-carousel-bg: @body-bg;
+@icon-rollover-opacity: 0.75;
+
+/*buttons*/
+@button-bg-alt: @button-bg-hover;
+@button-bg-hover-alt: @button-bg;
+@to-top-arrow-color: @main-color;
+@bg-upload-button: @green;
+
+/*header*/
+@menu-text-color-hover: @main-color;
+@submenu-badge: @selection-color;
+@icon-header-color:@menu-text-color;
+
+/*image box*/
+@box-bg: @white;
+@box-icon-color: @grey; // captions/stats
+@box-icon-color-hover: @main-color; //captions/stats
+@box-hover-icon-color: @white; // category icons
+@box-text-color: @menu-text-color;
+@likes-icon-hover:@heart-red;
+@views-icon-hover:@heart-red;
+@comments-icon-hover:@button-bg-hover;
+@box-icons-bg: @menu-bar-bg;
+
+/*pages*/
+@member-icon-color: @icon-header-color;
+@comment-header: @main-header-color;
+@comments-bg: none;
+
+/*footer*/
+@footer-link-color:@body-bg;
+@copyright-text: @box-icon-color;
+@footer-header-color: @box-icon-color;
+@footer-bg: @main-color;
+@footer-social-icon-color:@body-bg;
+
+/*modals main settings*/
+@modal-overlay-bg: fade(@main-color, 80%); //Fade returns RGBA value
+@modal-overlay-radial-start-bg: fade(@main-color, 40%); //webkit-moz-only
+@modal-overlay-radial-end-bg: fade(@main-color, 80%); //webkit-moz-only
+@modal-bg: @main-color;
+@modal-text: @input-bg;
+@modal-title-bg: @modal-bg;
+@modal-input-bg: @input-bg;
+@modal-text-notice:  @input-bg;
+@modal-text-success: @input-bg;
+@modal-progressbar-bg: @main-color;
+@modal-upload-border-color: @input-bg;
+@modal-choose-color-hover:@blue; //for upload icons
+
+/*modals buttons*/
+@modal-button-bg: @button-bg-hover;
+@modal-button-bg-hover: @blue;
+@modal-button-text:@input-bg;
+@modal-button-text-hover:@input-bg;
+@modal-button-icon-color:@input-bg;
+
+/* Border Radius */
+@border-radius-boxes:10px;
+@border-radius-button:0px; 
+@border-radius-fields:0px;
+@border-radius-modals:0px;
+@border-radius-search:10px;
+@border-radius-to-top-arrow:0px;
+@border-radius-submenu:0px;
+@border-radius-scrollbar:0px;
+@border-radius-avatar:0px;
+@border-radius-avatar-comments:100%;				
+@border-radius-carousel:100%;
+
+/* Shadows */
+//@x-axis @y-axis @blur @rgba //write none to remove
+@shadow-box-item: 3px 3px 3px rgba(0,0,0,0.2);
+@shadow-nav-bar:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-nav-bar-sticky:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-search-box:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-button:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-to-top-arrow:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-ads:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-carousel:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-submenu:0px 5px 10px rgba(0,0,0,0.2);
+@shadow-slider:3px 3px 3px rgba(0,0,0,0.2);
+@shadow-text-tagline: none;
+@shadow-text-links: none;
+@shadow-text-statics: none;
+@shadow-text-headers: none;
+@shadow-box-icon-hover: 2px 2px 2px rgba(0, 0, 0, 0.2); 	
+@shadow-scrollbar-track:inset 0 0 6px rgba(0,0,0,0.3);
+
+/* Image Box Effects */
+@image-hover-blur: 2px;
+@image-hover-sepia: 100%;
+@image-hover-brightness: 15%;
+@image-hover-contrast: 1;
+@image-hover-invert: 15%;
+@image-hover-grayscale: 50%;
+
+/*Scroll and Selectors */
+@selection-color:@light-grey;
+@scrollbar-bg: @light-grey;
+@scrollbar-width: 10px;

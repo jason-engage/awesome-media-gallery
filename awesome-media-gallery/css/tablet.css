@@ -1,0 +1,204 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+html {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  min-width: inherit;
+  max-width: 960px !important;
+  width: inherit;
+}
+.grid-wrapper {
+  min-width: inherit;
+  max-width: 960px !important;
+  width: inherit;
+}
+.header-container {
+  width: inherit !important;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.header-container header > .wrapper {
+  height: auto;
+}
+.header-container header > .wrapper .pure-g-r {
+  top: auto;
+}
+.header-container .logo {
+  padding-top: 40px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.header-container .header-sub {
+  top: inherit;
+  margin: 15px 0 20px;
+  position: static;
+  display: block;
+  width: 100% !important;
+  text-align: center;
+}
+.header-container .header-sub .button-container {
+  padding-bottom: 15px;
+}
+.header-container #user-menu {
+  font-size: 13px;
+  padding: 10px 0 0px 0 !important;
+  left: 0px !important;
+}
+.header-container #user-menu .nav .pure-u-3-8 {
+  display: none !important;
+}
+.header-container #user-menu .nav .pure-u-5-8 {
+  width: 100%;
+  text-align: center;
+}
+.header-container .tagline {
+  display: none !important;
+}
+section.content .gallery-nav {
+  margin-bottom: 60px !important;
+}
+section.content .gallery-nav .fancy-select {
+  top: 40px !important;
+}
+section.content .gallery-nav .fancy-select .trigger {
+  padding: 6px 20px 6px 0px !important;
+}
+section.content .gallery-nav .search-box {
+  top: 40px !important;
+}
+section.content .awesome-gallery .gutter-sizer {
+  width: 1.5% !important;
+}
+section.content .awesome-gallery .grid-sizer {
+  width: 32.33% !important;
+}
+section.content .awesome-gallery .box {
+  width: 32.33% !important;
+  padding: 0 !important;
+}
+section.content .awesome-gallery .box figure span.image .icon {
+  display: none;
+}
+section.content.gallery {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+section.content.gallery-single {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px 0 15px;
+}
+section.content.gallery-single .image-meta .float-left {
+  width: 57% !important;
+}
+section.content.gallery-single .image-meta .float-right {
+  width: 43% !important;
+}
+section.content.gallery-single .single-image {
+  width: 100%;
+}
+section.content.gallery-single .single-image .meta-data.buttons #fancybox-view-button {
+  display: none !important;
+}
+section.content.gallery-single .elastislide-wrapper .elastislide-carousel ul {
+  margin-left: -17px;
+}
+section.content.gallery-single .elastislide-wrapper .elastislide-carousel ul li {
+  margin: 0 4px;
+}
+section.content.gallery-single .comment-holder {
+  display: none;
+}
+section.content sidebar,
+section.content .sidebar {
+  display: none;
+}
+section.content.profile {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+section.content.profile.pure-u-3-4 {
+  width: 100%;
+}
+section.content.members {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+section.content.members ul.members > li {
+  margin: 30px 30px 0px 0px !important;
+  width: 48% !important;
+}
+section.content.members ul.members > li:nth-child(2n+2) {
+  margin-right: 0px !important;
+}
+section.content .upload-fields .category-wrapper .pure-u-1-4 {
+  width: 50%;
+}
+section.content .upload-fields .category-wrapper .pure-button {
+  vertical-align: -4px !important;
+}
+section.content .upload-fields .pure-form input[type=text],
+section.content .upload-fields .pure-form input[type=password],
+section.content .upload-fields .pure-form input[type=email],
+section.content .upload-fields .pure-form input[type=url],
+section.content .upload-fields .pure-form input[type=date],
+section.content .upload-fields .pure-form input[type=month],
+section.content .upload-fields .pure-form input[type=time],
+section.content .upload-fields .pure-form input[type=datetime],
+section.content .upload-fields .pure-form input[type=datetime-local],
+section.content .upload-fields .pure-form input[type=week],
+section.content .upload-fields .pure-form input[type=number],
+section.content .upload-fields .pure-form input[type=search],
+section.content .upload-fields .pure-form input[type=tel],
+section.content .upload-fields .pure-form input[type=color],
+section.content .upload-fields .pure-form label {
+  display: inline-block;
+}
+.footer-container .float-left {
+  width: 30% !important;
+}
+.footer-container .float-right {
+  width: 70% !important;
+  display: inline-block;
+  text-align: right;
+}
+.footer-container #footer-logo {
+  display: inline;
+  float: left;
+}
+.footer-container #footer-logo img {
+  width: 90%;
+}
+.footer-container .about-caption {
+  width: 130%;
+  display: block;
+}
+.footer-container .top .pure-g-r {
+  padding: 0px 20px;
+}
+.footer-container .nav .link-col {
+  border-right: 0 !important;
+  width: 18% !important;
+}
+.footer-container .copyright.wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.footer-container .copyright.wrapper .engage-mark {
+  margin-right: 20px;
+  text-align: right !important;
+  float: right !important;
+}
+@media screen and (max-width: 767px) {
+  ul.members > li {
+    margin: 30px 15px 10px 0px !important;
+    width: 48% !important;
+  }
+}

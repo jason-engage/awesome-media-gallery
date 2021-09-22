@@ -1,0 +1,299 @@
+@import "colors.less";
+
+html{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body {
+	margin:0;
+}
+
+.wrapper {
+	min-width: inherit;
+	max-width:960px!important;
+	width: inherit;
+}
+
+.grid-wrapper {
+	min-width: inherit;
+	max-width:960px!important;
+	width: inherit;
+}
+
+
+/*************************** Home Content ****************************/
+.header-container{
+	
+	width:inherit!important;
+	padding:0 0 0 0;
+	box-sizing: border-box;
+	margin-bottom:@header-margin-bottom;
+	
+	header > .wrapper {
+		height: auto;
+		.pure-g-r {
+			top: auto;
+		}
+	}
+	
+	.logo {
+		padding-top:40px;
+		display:block;
+		width: 100%;
+		text-align: center;		
+	}
+	
+	.header-sub {
+		top:inherit;
+		margin: 15px 0 20px;
+		position:static;
+		display:block;
+		width:100%!important;
+		text-align: center;
+		.button-container {
+			padding-bottom:15px;
+		}
+	}
+	
+	#user-menu {
+		
+		font-size:13px;
+		padding:10px 0 0px 0 !important;
+		left:0px!important;
+		
+		.nav {
+			.pure-u-3-8 {
+				display:none!important;
+			}
+			
+			.pure-u-5-8 {
+				width:100%;
+				text-align: center;
+			}
+		}
+	}
+	
+	.tagline{
+		display:none !important;
+	}
+	
+	
+}
+
+/* MAIN CONTENT */
+section.content {
+		
+	.gallery-nav {
+		margin-bottom:60px!important;
+		.fancy-select {
+			top: 40px!important;
+			
+			.trigger{
+				padding: 6px 20px 6px 0px !important;
+			}
+						
+		}
+		.search-box {
+			top: 40px!important;
+		}
+	}
+
+	.awesome-gallery {
+		.gutter-sizer { 
+			width: @box-margin!important; 
+		}
+		
+		.grid-sizer {
+			width: @box-width!important;
+		}
+		
+		.box {
+			width:@box-width!important;
+			padding:0!important;
+			figure {
+				span.image{		
+					.icon {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	
+
+	&.gallery {
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+	
+	&.gallery-single{
+		
+		width:100%;
+		box-sizing: border-box;
+		padding: 0 15px 0 15px;
+		
+		.image-meta {
+						
+			.float-left {
+				width:57%!important;
+			}
+			.float-right {
+				width:43%!important;
+			}
+
+		}
+		
+		.single-image {
+			width:100%;
+			.meta-data.buttons	{	
+				#fancybox-view-button {
+					display:none!important;
+				}
+			}
+
+		}
+		.elastislide-wrapper .elastislide-carousel ul{
+			margin-left: -17px;
+			li{
+				margin: 0 4px;
+			}
+		}
+		.elastislide-horizontal nav span {
+		}
+		
+		.meta-description .meta-description {
+		}
+		
+		.comment-holder {
+			display:none;
+		}
+	}
+
+	
+	sidebar, .sidebar {
+		display:none;
+	}
+	
+
+	&.profile {
+
+		box-sizing: border-box;
+		padding: 0 15px;
+
+		&.pure-u-3-4 {
+			width:100%;
+		}	
+	}
+
+	
+	&.members {
+		box-sizing: border-box;
+		padding: 0 15px;
+
+		ul.members > li {
+			
+			margin: 30px 30px 0px 0px!important;
+			width: 48%!important;
+						
+			&:nth-child(2n+2) {
+					margin-right:0px !important;
+			}
+
+		}
+	}
+	
+	.upload-fields {
+		.category-wrapper {
+			.pure-u-1-4 {
+				width:50%;			
+			}
+			.pure-button {
+				vertical-align: -4px!important;
+			}
+		}
+		
+		.pure-form input[type=text], .pure-form input[type=password], .pure-form input[type=email], .pure-form input[type=url], .pure-form input[type=date], .pure-form input[type=month], .pure-form input[type=time], .pure-form input[type=datetime], .pure-form input[type=datetime-local], .pure-form input[type=week], .pure-form input[type=number], .pure-form input[type=search], .pure-form input[type=tel], .pure-form input[type=color], .pure-form label {
+			display:inline-block;
+		}
+		
+	}
+
+}
+
+
+/*FOOTER*/
+.footer-container{
+	
+	.float-left {
+		width: 30%!important;
+	}
+	.float-right {
+		width: 70%!important;
+		display:inline-block;
+		text-align: right;
+	}
+		
+	#footer-logo {
+		display: inline;
+		float: left;
+		img {
+			width:90%;
+		}
+	}
+	
+	.about-caption {
+		width: 130%;
+		display:block;
+	}	
+	
+	.top {
+		.pure-g-r {
+			padding: 0px 20px;
+		}
+	}
+		
+	.nav .link-col {
+		border-right:0 !important;
+		width:18%!important;
+	}
+
+	
+	.copyright.wrapper {
+		padding-left:20px;
+		padding-right:20px;
+		box-sizing:border-box;
+		width:100%;
+		box-sizing: border-box;
+		.engage-mark {
+			margin-right:20px;
+			text-align: right!important;
+			float:right!important;
+		}
+	}
+
+
+}
+
+
+/*************************** Ad Fields ****************************/
+
+
+/* Portrait Mode */
+@media screen and (orientation:portrait) { 
+	
+	
+}
+
+/* FOR SMALLER TABLETS LIKE KINDLE */
+@media screen and (max-width: 767px) {
+
+
+	ul.members > li {
+			margin: 30px 15px 10px 0px!important;
+			width: 48%!important;
+	}
+	
+}
+
+/*@media screen and (max-width: 767px), (orientation: landscape) and (min-width: 769px)  { 
+second query is to target wide small tablets like kindle in landscape */
